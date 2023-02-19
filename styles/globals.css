@@ -1,9 +1,16 @@
+/* Tailwind CSS configuration, specifying base, components and utilities styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+h1 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  font-weight: 600;
+}
+
+.home_title {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  font-weight: 700;
 }
