@@ -11,7 +11,7 @@ export default function Login() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="flex items-center">
-          <h1>Login page</h1>
+          <h1>Se connecter</h1>
         </div>
       </>
     );
